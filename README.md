@@ -1,7 +1,9 @@
 # BANKING_SENTIMENTAL_ANALYSIS
-This is a model  using BERT NEURAL NETWORK BERT NERUAL NETWORK and the Hugging Face Transformers library to classify the sentiment of reviews of top 5 banks in VN
+This is a model using BERT NEURAL NETWORK BERT NERUAL NETWORK and the Hugging Face Transformers library to classify the sentiment of reviews of top 5 banks in VIETNAM, 
+
 ** Data is scraped from GG map reviews, using Data Scraper extension
 
+** Used Streamlit to create an interactive app for future text's sentiment
 
 ** NOTE: The reason we check for both string and list data types in the sentence variable is to handle different ways the text data could be structured in the DataFrame
 
