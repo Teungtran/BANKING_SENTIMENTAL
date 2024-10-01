@@ -5,11 +5,11 @@ import time
 
 NLP = jb.load('NLP.pkl')
 
-st.title('MÔ HÌNH ĐÁNH GIÁ PHẢN HỒI CỦA KHÁC HÀNG ')
+st.title('MÔ HÌNH ĐÁNH GIÁ PHẢN HỒI CỦA KHÁCH HÀNG ')
 
 st.divider()
 # give info
-text = st.text_area('Nhập nhận xét (Kết quả đánh giá NEG: Tệ, POS: Tốt, NEU: Bình thường):')
+text = st.text_area('Nhập nhận xét (Kết quả đánh giá NEG: Tệ, POS: Tốt, NEU: Trung Lập):')
 st.divider()
 if st.button('Click to Analyze'):
     with st.status("Analyzing......"):
